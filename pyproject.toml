@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crawlz"
+version = "1.0.0"
+description = "A comprehensive web scraping and vector database package"
+readme = "README.md"
+requires-python = ">=3.9,<3.14"
+dependencies = [
+    "openai>=1.0.0",
+    "qdrant-client>=1.7.0",
+    "llama-index>=0.9.0",
+    "llama-index-vector-stores-qdrant>=0.2.0",
+    "llama-index-embeddings-openai>=0.1.0",
+    "llama-index-llms-openai>=0.1.0",
+    "numpy>=1.24.0",
+    "asyncio-throttle>=1.0.0",
+    "aiohttp>=3.8.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "crawl4ai",
+    "ruff>=0.12.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.5.0",
+]
+
+
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

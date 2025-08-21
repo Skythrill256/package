@@ -1,0 +1,10 @@
+line-length = 88
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E203", "E501"]
+
+[lint.isort]
+known-first-party = ["package", "examples"]
+combine-as-imports = true
