@@ -154,16 +154,6 @@ mypy
 ```
 
 
-## Project Metadata
-
-Name: `crawlz`
-
-Description: A comprehensive web scraping and vector database package.
-
-Python: `>=3.9,<3.14`
 
 
-## License
-
-Add your license text here (e.g., MIT). If you already have a LICENSE file, reference it here.
 
