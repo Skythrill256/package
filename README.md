@@ -34,8 +34,7 @@ Key public APIs live in:
 This project uses `pyproject.toml` (PEP 621) and `setuptools`.
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -e .[dev]
+uv sync
 ```
 
 Runtime dependencies (from `pyproject.toml`):
