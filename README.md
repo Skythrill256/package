@@ -96,7 +96,7 @@ An interactive example is provided in `examples/cli.py`.
 
 ```bash
 export OPENAI_API_KEY=sk-...  # or enter when prompted
-python examples/cli.py
+uv run examples/cli.py
 ```
 
 What it does:
