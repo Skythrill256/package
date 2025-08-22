@@ -146,7 +146,6 @@ Then set `qdrant_url` to `http://localhost:6333`.
 ## Development
 
 ```bash
-pip install -e .[dev]
 pytest -q
 ```
 
