@@ -6,7 +6,7 @@ from package.config.config import WebVectorConfig
 from package.core.core import WebVectorClient
 
 QDRANT_URL = "http://localhost:6333"
-COLLECTION_NAME = "iem"
+COLLECTION_NAME = "name"
 
 
 async def run():
