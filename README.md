@@ -1,4 +1,4 @@
-# Crawlz (WebVector) – Web Scraping to Vector DB with LLM Querying
+# WebVector – Web Scraping to Vector DB with LLM Querying
 
 Turn websites into a searchable knowledge base: scrape pages, generate embeddings, store them in a vector database (Qdrant), and query using an LLM. This package orchestrates web scraping, embedding generation, vector storage, and natural language querying via a single high-level client.
 
