@@ -78,11 +78,7 @@ async def main():
 
     # 2) Ask questions
     answer = await client.query(
-        question="What does the site say about X?",
-        top_k=5,
-        similarity_threshold=0.7,
-        include_sources=True,
-    )
+        question="What does the site say about X?" )
     print(answer)
 
 if __name__ == "__main__":
